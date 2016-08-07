@@ -1,0 +1,10 @@
+{
+  "name": "v6_js",
+  "version": "1.0.0",
+  "description": "Concatenate JS files for web page test.",
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-clean": "*",
+    "gulp-concat": "*"
+  }
+}
