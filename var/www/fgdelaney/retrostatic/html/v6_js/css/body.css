@@ -1,0 +1,312 @@
+/* ------- body ------- */
+
+body{
+	background-image:url(../images/brown_strands.jpg);
+}
+
+#aside_index {
+	font-family: Helvetica, Arial, sans-serif;
+	border: 4px;
+	line-height: 30px;
+	background-color: none;
+	width: 250px;
+	height: 160px;
+	float: left;
+	padding: 20px 20px 20px 20px;
+	margin: 0;
+	text-align:center;
+	border-radius:8px;
+}
+
+
+#aside_screen {
+	line-height: 30px;
+	background-color: #C9DBFF;
+	font-family: courier, "Courier New";
+	font-size: 1em;
+	color:#1A5F7C;
+	width: 200px;
+	float: left;
+	padding: 20px;
+	margin:70px 10px 40px 10px;
+	text-align: left;
+	border-radius:8px;
+}
+
+#aside_insight {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: .9em;
+	line-height: 1.4em;
+	color:lightyellow;
+	background-color:#1A5F7C;
+	width: 200px;
+	float: left;
+	padding: 10px;
+	margin:70px 10px 40px 30px;
+	border-radius:8px;
+}
+
+
+#aside_shop {
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 30px;
+	background-color: none;
+	width: 80px;
+	height: 120px;
+	float: left;
+	padding: 20px;
+	margin: 25px;
+}
+
+
+
+#section_index {
+	font-family: courier, "Courier New";
+	font-size: 1.2em;
+	color: #1A5F7C;
+	width:950px;
+	float: center;
+	padding: 12px 0px 30px;
+	margin: 50px 0px 40px;
+	background-color:#C9DBFF;
+	border-radius: 0px 0px 8px 8px;
+	border-radius:8px;
+}
+
+
+#section_screen {
+	font-family: courier, "Courier New";
+	font-size: 1em;
+	color:lightyellow;
+	width:600px;
+	float: left;
+	padding: 20px;
+	margin: 70px 0px 40px 10px;
+	background-color:#1A5F7C;
+	border-radius:8px;
+	text-align: left;
+}
+
+
+#section_insight {
+	font-family: courier, "Courier New";
+	font-size: 1em;
+	color: #1A5F7C;
+	width:600px;
+	float: left;
+	padding: 20px;
+	margin: 70px 0px 40px 30px;
+	background-color:#C9DBFF;
+	border-radius:8px;
+	text-align: left;
+}
+
+#section_shop {
+	font-family: courier, "Courier New";
+	font-size: 1em;
+	color: #1A5F7C;
+	width:700px;
+	float: left;
+	padding: 20px;
+	margin: 70px 0px 40px 30px;
+	background-color:#C9DBFF;
+	border-radius:8px;
+	text-align: center;
+}
+
+/* ------- table contents --------- */
+table, th, td, tr {
+    border: solid black 0.1rem
+}
+
+td {
+    width: 7rem;
+    text-align: center;
+    padding: 6px;
+    margin: 2px;
+}
+
+
+#main_index {
+	font-family: Helvetica, Arial, sans-serif;
+	background-color:none;
+	width: 180px;
+	float: right;
+	padding: 10px;
+	margin:70px 10px 0px 30px;
+	text-align: center;
+}
+
+#main_screen {
+	font-family: courier, "Courier New";
+	background-color: #FF851A;
+	width: 180px;
+	float: right;
+	padding: 20px;
+	margin:70px 10px 40px 10px;
+	text-align: center;
+	border-radius:8px;
+	color:lightyellow;
+}
+
+
+#main_image{
+	float: left;
+	padding: 2px;
+	border: .2px;	
+}
+
+#main_shop {
+	font-family: Helvetica, Arial, sans-serif;
+	background-color:none;
+	width: 180px;
+	float: right;
+	padding: 0px;
+	margin:55px 10px 40px 30px;
+	text-align: left;
+}
+
+
+#article_insight {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: .9em;
+	color: lightyellow;
+	line-height: 1.4em;
+	width:200px;
+	padding: 10px;
+	margin:70px 10px 40px 0px;
+	border-radius: 8px;
+	float: right;
+	background-color: #FF851A;
+}
+
+#article_insight .img {
+	padding: .2em;
+	margin: 30 0 10 0;
+}
+
+/* login screen */
+
+.container {
+	margin: 50px auto;
+	width: 640px;
+}
+.login, .register {
+	margin: 0 auto;
+	padding: 20px;
+	position: relative;
+	width: 310px;
+}
+.login:before,
+.register:before {
+	background: rgba(0, 0, 0, 0.08);
+	border-radius: 4px;
+	bottom: -8px;
+	content: '';
+	left: -8px;
+	position: absolute;
+	top: -8px;
+	right: -8px;
+	z-index: -1;
+}
+.login div.buttons {
+	margin: 20px auto;
+	text-align: center;
+	width: 250px;
+}
+.login-help {
+	color: white;
+	font-size: 11px;
+	margin: 20px 0;
+	text-align: center;
+	text-shadow: 0 1px #2a85a1;
+}
+.login-help a {
+	color: #cce7fa;
+	text-decoration: none;
+}
+.login-help a:hover {
+	text-decoration: underline;
+}
+:-moz-placeholder,
+::-webkit-input-placeholder {
+	color: #c9c9c9 !important;
+	font-size: 15px;
+}
+.login h1,
+.register h1 {
+	background-color: #FF851A;
+	border-radius: 8px;
+	color: #1A5F7C;
+	font-family: courier, "Courier New";
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 40px;
+	text-align: center;
+}
+.login p,
+.register p {
+	margin: 20px 0 0;
+	text-align: center;
+}
+.login p:first-child {
+	margin-top: 0;
+}
+.login input[type=password], .login input[type=text],
+.register input[type=email], .register input[type=password], .register input[type=text] {
+	font-size: 20px;
+	height: 30px;
+	line-height: 25px;
+	width: 250px;
+}
+.login input[type=submit],
+.register input[type=submit],
+.login .buttons span.btn {
+	background-color: #C9DBFF;
+	border: 3px outset #cccccc;
+	border-radius: 20px;
+	color: #1A5F7C;
+	cursor: pointer;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	padding: 2px 6px 3px;
+}
+.login input[type=submit],
+.register input[type=submit] {
+	height: 40px;
+	width: 100px;
+}
+.login .buttons span.btn {
+	display: inline-block;
+	height: 29px;
+	text-align: center;
+	width: 82px;
+}
+.login .buttons span.btn a {
+	color: #1A5F7C;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-decoration: none;
+}
+.login .buttons span.btn:hover,
+.login input[type=submit]:hover,
+.register input[type=submit]:hover {
+	background-color: #1A5F7C;
+	border: 3px outset #C9DBFF;
+	color: #fff;
+	cursor: pointer;
+}
+.login .buttons span.btn:hover a,
+.register .buttons span.btn:hover a {
+	color: #fff;
+}
+
+#news-section,
+#home-page {
+	max-width: 840px;
+	margin: 10px auto;
+}
+
+#section_screen h1 {
+	text-align: center;
+}
