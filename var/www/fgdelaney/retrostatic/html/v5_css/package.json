@@ -1,0 +1,26 @@
+{
+  "name": "v5_css",
+  "version": "1.0.0",
+  "description": "Generate and inline CSS for web page test.",
+  "devDependencies": {
+    "critical": "^0.7.0",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-cache": "*",
+    "gulp-clean": "*",
+    "gulp-csso": "*",
+    "gulp-filter": "*",
+    "gulp-flatten": "*",
+    "gulp-if": "*",
+    "gulp-jshint": "*",
+    "gulp-load-plugins": "*",
+    "gulp-minify-css": "*",
+    "gulp-print": "*",
+    "gulp-rename": "*",
+    "gulp-size": "*",
+    "gulp-uglify": "*",
+    "gulp-useref": "*",
+    "jshint": "*",
+    "jshint-stylish": "*"
+  }
+}
